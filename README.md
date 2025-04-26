@@ -1,4 +1,4 @@
-# 🚀 Laravel & MySQL Essentials – Learning Project :) :) :)
+# 🚀 Laravel & MySQL Essentials – Learning Project :) :) :) :)
 
 This repository contains essential concepts, examples, and mini-implementations for mastering **Laravel** and **MySQL**.
 
