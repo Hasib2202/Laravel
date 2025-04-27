@@ -36,4 +36,7 @@ Route::post('/user-form', [UserController::class, 'userForm']);
 
 Route::post('/user-form-extra', [UserController::class, 'userFormExtra']);
 
+Route::view('url','url');
+Route::view('test','url');
+
 

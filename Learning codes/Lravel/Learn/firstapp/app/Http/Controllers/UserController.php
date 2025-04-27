@@ -72,6 +72,7 @@ class UserController extends Controller
             'email.email' => 'Email must be a valid email address',
             'password.required' => 'Password is required',
             'address.required' => 'Address is required',
+            'address.uppercase' => 'Address must be uppercase',
             'phone.required' => 'Phone number is required'
         ]);
 
