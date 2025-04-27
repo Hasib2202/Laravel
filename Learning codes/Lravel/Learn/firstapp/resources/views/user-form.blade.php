@@ -87,6 +87,10 @@
     .age-container {
         margin-bottom: 20px;
     }
+    .input-error {
+        border: 1px solid red;
+        color: red;
+    }
 </style>
 
 <div>
@@ -108,32 +112,40 @@
 
             <div>
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name" value="{{ old('name') }}"
+                class="{{$errors->first('name')?'input-error':''}}">
                 <span style="color: red;">@error('name'){{ $message }}@enderror</span>
 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" value="{{ old('email') }}"
+                class="{{$errors->first('email')?'input-error':''}}">
                 <span style="color: red;">@error('email'){{ $message }}@enderror</span>
 
                 <label for="password">Password:</label>
-                <input type="password" id="password" name="password">
+                <input type="password" id="password" name="password" value="{{ old('password') }}"
+                class="{{$errors->first('password')?'input-error':''}}">
                 <span style="color: red;">@error('password'){{ $message }}@enderror</span>
 
                 <label for="confirm_password">Confirm Password:</label>
-                <input type="password" id="confirm_password" name="confirm_password">
+                <input type="password" id="confirm_password" name="confirm_password" value="{{ old('confirm_password') }}"
+                class="{{$errors->first('confirm_password')?'input-error':''}}">
                 <span style="color: red;">@error('confirm_password'){{ $message }}@enderror</span>
 
                 <label for="phone">Phone:</label>
-                <input type="text" id="phone" name="phone">
+                <input type="text" id="phone" name="phone" value="{{ old('phone') }}"
+                class="{{$errors->first('phone')?'input-error':''}}">
                 <span style="color: red;">@error('phone'){{ $message }}@enderror</span>
 
                 <label for="address">Address:</label>
-                <input type="text" id="address" name="address">
+                <input type="text" id="address" name="address" value="{{ old('address') }}"
+                class="{{$errors->first('address')?'input-error':''}}">
                 <span style="color: red;">@error('address'){{ $message }}@enderror</span>
 
                 <button type="submit">Submit</button>
+                
             </div>
         </form>
+
     </div>
 
     <div class="form-container">

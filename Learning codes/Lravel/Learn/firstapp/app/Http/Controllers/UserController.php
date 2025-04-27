@@ -36,9 +36,9 @@ class UserController extends Controller
         ]);
     }
 
-    function adminLogin(){
-        return view('admin.login');
-    }
+    // function adminLogin(){
+    //     return view('admin.login');
+    // }
 
     function variable(){
         $name = "Mostofa";
@@ -63,6 +63,15 @@ class UserController extends Controller
             'password' => 'required',
             'address' => 'required | min: 5 | max: 10', 
             'phone' => 'required'
+        ],[
+            'name.required' => 'Name is required',
+            'name.min' => 'Name must be at least 5 characters',
+            'name.max' => 'Name must not exceed 10 characters',
+            'email.required' => 'Email is required',
+            'email.email' => 'Email must be a valid email address',
+            'password.required' => 'Password is required',
+            'address.required' => 'Address is required',
+            'phone.required' => 'Phone number is required'
         ]);
 
         echo "Name: ".$request->name;
