@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Rules\UppercaseValidation;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
@@ -61,7 +62,7 @@ class UserController extends Controller
             'name' => 'required | min: 5 | max: 10',
             'email' => 'required|email',
             'password' => 'required',
-            'address' => 'required | min: 5 | max: 10', 
+            'address' => 'required | min: 5 | max: 10 | uppercase', 
             'phone' => 'required'
         ],[
             'name.required' => 'Name is required',
