@@ -40,3 +40,8 @@ Route::view('url','url');
 Route::view('test','url');
 
 
+Route::view('name/url/user','nameUrl')->name('nm');
+
+
+
+
