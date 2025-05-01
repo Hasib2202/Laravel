@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\NameUrl;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 
@@ -41,6 +42,11 @@ Route::view('test','url');
 
 
 Route::view('name/url/user','nameUrl')->name('nm');
+Route::view('name/url/user/{name}','nameUrl')->name('nameTest');
+
+Route::get('show', [NameUrl::class, 'show']);
+Route::get('nameTest', [NameUrl::class, 'nameTest']);
+
 
 
 
