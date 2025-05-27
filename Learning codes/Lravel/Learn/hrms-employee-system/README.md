@@ -3,8 +3,6 @@ Here's the complete README.md file in markdown format:
 ```markdown
 # HRMS Employee Management System
 
-![Project Banner](screenshots/banner.png) <!-- Add your banner image -->
-
 A comprehensive employee management system built with Laravel featuring full CRUD operations, validation, and responsive UI.
 
 ## ✨ Features
@@ -42,7 +40,7 @@ A comprehensive employee management system built with Laravel featuring full CRU
 ------------ | ------------- | -------------
 PHP 8.2 | HTML5 | jQuery 3.7
 Laravel 10 | CSS3 | DataTables
-MySQL | Bootstrap 5 | SweetAlert2
+MySQL | Bootstrap 5 | 
 Eloquent ORM | JavaScript | jQuery Validate
 
 ## 🚀 Installation Guide
@@ -131,50 +129,27 @@ hrms-employee-system/
 
 ## 📸 Screenshots
 
-| Employee List | Add Employee |
-|---------------|--------------|
-| ![Employee List](screenshots/list-view.png) | ![Add Employee](screenshots/add-modal.png) |
+Employee List 
+![Image](https://github.com/user-attachments/assets/5272fc69-f07c-4024-8c57-76f74b01a183) 
+Add Employee
+![Image](https://github.com/user-attachments/assets/0c893bcd-c3af-40f5-a77a-6526c1c15146)
 
-| Edit Employee | Mobile View |
-|---------------|-------------|
-| ![Edit Modal](screenshots/edit-modal.png) | ![Mobile](screenshots/mobile-view.png) |
+Edit Employee 
+![Edit Modal](![Image](https://github.com/user-attachments/assets/dbe99f4d-da7a-4baf-8f7a-f79b003bb294)
 
-| Notifications | Validation |
-|---------------|------------|
-| ![Success](screenshots/success-notif.png) | ![Errors](screenshots/validation-errors.png) |
+Action Button
+![Buttons](![Image](https://github.com/user-attachments/assets/1f58bd34-eb2f-4ea8-8267-67edc282985c)
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Credits
 
 - [Laravel](https://laravel.com) - PHP framework
 - [Bootstrap](https://getbootstrap.com) - CSS framework
 - [DataTables](https://datatables.net) - Table plugin
-- [SweetAlert2](https://sweetalert2.github.io) - Notifications
 - [Faker](https://fakerphp.github.io) - Dummy data
 
 ---
 
-**Happy Coding!** 👨💻👩💻
-```
 
-To use this README:
-
-1. Create a `screenshots` directory in your project root
-2. Add actual screenshots with suggested names
-3. Replace placeholders with your actual:
-   - Repository URL
-   - Database credentials
-   - License file
-   - Banner image
-4. Customize any sections to match your implementation
-
-The markdown file uses:
-- Clean section organization
-- Emoji visual indicators
-- Responsive image tables
-- Clear installation steps
-- Detailed feature listings
-- Modern formatting style
