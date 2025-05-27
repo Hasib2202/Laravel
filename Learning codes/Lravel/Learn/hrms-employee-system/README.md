@@ -128,7 +128,8 @@ hrms-employee-system/
 ```
 
 ## 📸 Screenshots
-
+Landing page
+![Image](https://github.com/user-attachments/assets/0a287e3c-dde7-492a-8d73-089e79689685)
 Employee List 
 ![Image](https://github.com/user-attachments/assets/5272fc69-f07c-4024-8c57-76f74b01a183) 
 Add Employee
